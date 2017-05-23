@@ -90,4 +90,4 @@
 * [FAQ](faq.md)
 * [Comparison to Java](comparation-to-java.md)
 
-[Full Kotlin Reference](assets/kotlin-docs.pdf)
+[Full Kotlin Reference](assets/kotlin-docs-cn.pdf)
