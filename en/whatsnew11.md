@@ -51,7 +51,7 @@ val seq = buildSequence {
     // yield a range
     yieldAll(26..28)
 }
-​
+
 // print the sequence
 println(seq.toList())
 ```
@@ -243,17 +243,20 @@ enum class RGB { RED, GREEN, BLUE }
 inline fun <reified T : Enum<T>> printAllValues() {
     print(enumValues<T>().joinToString { it.name })
 }
-```Target platform: JVMRunning on kotlin v. 1.1.2
+```
+Target platform: JVMRunning on kotlin v. 1.1.2
 
 ##Scope control for implicit receivers in DSLs
 
 The @DslMarker annotation allows to restrict the use of receivers from outer scopes in a DSL context. Consider the canonical HTML builder example:
 
+```kotlin
 table {
     tr {
         td { +"Text" }
     }
 }
+```
 In Kotlin 1.0, code in the lambda passed to td has access to three implicit receivers: the one passed to table, to tr and to td. This allows you to call methods that make no sense in the context - for example to call tr inside td and thus to put a <tr> tag in a <td>.
 
 In Kotlin 1.1, you can restrict that, so that only methods defined on the implicit receiver of td will be available inside the lambda passed to td. You do that by defining your annotation marked with the @DslMarker meta-annotation and applying it to the base class of the tag classes.
@@ -271,7 +274,9 @@ The mod operator is now deprecated, and rem is used instead. See this issue for 
 There is a bunch of new extensions on the String class to convert it to a number without throwing an exception on invalid number: String.toIntOrNull(): Int?, String.toDoubleOrNull(): Double? etc.
 
 ```kotlin
-val port = System.getenv("PORT")?.toIntOrNull() ?: 80```
+val port = System.getenv("PORT")?.toIntOrNull() ?: 80
+```
+
 Also integer conversion functions, like Int.toString(), String.toInt(), String.toIntOrNull(), each got an overload with radix parameter, which allows to specify the base of conversion (2 to 36).
 
 ##onEach()
