@@ -94,4 +94,4 @@
 
 ---
 
-* [Full Kotlin Reference](assets/kotlin-docs-cn.pdf)
+* [Full Kotlin Reference](https://jiek.gitbooks.io/kotlin-reference/content/zh/assets/kotlin-docs-cn.pdf)
