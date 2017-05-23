@@ -1,24 +1,26 @@
-#Overview
+#SUMMARY
+
+##Overview
 
 * [Kotlin for Server Side](server-overview.md)
 * [Kotlin for Android](android-overview.md)
 * [Kotlin for JavaScript](js-overview.md)
 * [What's New in 1.1](whatsnew11.md)
 
-#Getting Started
+##Getting Started
 
 * [Basic Syntax](basic-syntax.md)
 * [Idioms](idioms.md)
 * [Coding Conventions](coding-conventions.md)
 
-#Basics
+##Basics
 
 * [Basic Types](basic-types.md)
 * [Packages](packages.md)
 * [Control Flow](control-flow.md)
 * [Returns and Jumps](returns.md)
 
-#Classes and Objects
+##Classes and Objects
 
 * [Classes and Inheritance](classes.md)
 * [Properties and Fields](properties.md)
@@ -34,14 +36,14 @@
 * [Delegation](delegation.md)
 * [Delegated Properties](delegated-properties.md)
 
-#Functions and Lambdas
+##Functions and Lambdas
 
 * [Functions](functions.md)
 * [Lambdas](lambdas.md)
 * [Inline Functions](inline-functions.md)
 * [Coroutines](coroutines.md)
 
-#Other
+##Other
 
 * [Destructuring Declarations](multi-declarations.md)
 * [Collections](collections.md)
@@ -57,17 +59,17 @@
 * [Type-Safe Builders](type-safe-builders.md)
 * [Type Aliases](type-aliases.md)
 
-#Reference
+##Reference
 * API Reference
 * [Grammar](grammar.md)
 * [Compatibility](compatibility.md)
 
-#Java Interop
+##Java Interop
 
 * [Calling Java from Kotlin](java-interop.md)
 * [Calling Kotlin from Java](java-to-kotlin-interop.md)
 
-#JavaScript
+##JavaScript
 
 * [Dynamic Type](dynamic-type.md)
 * [Calling JavaScript from Kotlin](js-interop.md)
@@ -75,7 +77,7 @@
 * [JavaScript Modules](js-modules.md)
 * [JavaScript Reflection](js-reflection.md)
 
-#Tools
+##Tools
 
 * [Documenting Kotlin Code](kotlin-doc.md)
 * [Using Kapt](kapt.md)
@@ -85,9 +87,11 @@
 * [Kotlin and OSGi](kotlin-osgi.md)
 * [Compiler plugins](compiler-plugins.md)
 
-#FAQ
+##FAQ
 
 * [FAQ](faq.md)
 * [Comparison to Java](comparation-to-java.md)
+
+---
 
 [Full Kotlin Reference](assets/kotlin-docs.pdf)
